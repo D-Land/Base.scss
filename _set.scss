@@ -22,7 +22,9 @@ $type-stack-monospace: monospace !default;
 // ---------------------------------------------------------
 
 // Border-box is required.
-* {
+*,
+:before,
+:after {
   box-sizing: border-box;
 }
 
