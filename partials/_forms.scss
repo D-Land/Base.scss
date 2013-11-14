@@ -1,0 +1,81 @@
+// Forms
+// ---------------------------------------------------------
+
+// Set margin, padding, border (Normalize)
+fieldset {
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+}
+
+// Set padding, border (Normalize)
+legend {
+  padding: 0;
+  border: 0;
+}
+
+// Set margin, font-family, font-size (Normalize)
+// font-family cannot be set to `inherit`
+// Set text-transform: none (Normalize)
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  font-family: $type-stack-main;
+  text-transform: none;
+}
+
+// Set line-height (Normalize)
+button,
+input {
+  line-height: normal;
+
+  // Set cursor: default (Normalize)
+  html &[disabled] {
+    cursor: default;
+  }
+
+  // Set padding: 0, border: 0 (Normalize)
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+// Set cursor: pointer, -webkit-appearance: button (Normalize)
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+
+  -webkit-appearance: button;
+}
+
+// Set padding (Normalize)
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+}
+
+// Set -webkit-appearance: textfield (Normalize)
+input[type="search"] {
+
+  -webkit-appearance: textfield;
+
+  // Set -webkit-appearance: none (Normalize)
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-decoration {
+
+    -webkit-appearance: none;
+  }
+}
+
+// Set overflow: auto, vertical-align: top (Normalize)
+// Set resize (H5BP)
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;

@@ -1,0 +1,16 @@
+// Base
+// ---------------------------------------------------------
+
+// Set font-family, text-size-adjust (Normalize)
+html {
+  color: $type-color;
+  font-size: $base-font-size;
+  line-height: 1.4;
+  font-family: $type-stack-main;
+  text-size-adjust: 100%;
+}
+
+// Set margin (Normalize)
+body {
+  margin: 0;
+}

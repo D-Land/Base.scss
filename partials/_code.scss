@@ -1,0 +1,18 @@
+// Code
+// ---------------------------------------------------------
+
+// Set font-size, font-family (Normalize)
+code,
+kbd,
+samp {
+  font-size: 1em;
+  font-family: $type-stack-monospace;
+}
+
+// Set font-size, font-family (Normalize)
+// Set white-space: pre-wrap (Normalize)
+pre {
+  font-size: 1em;
+  font-family: $type-stack-monospace;
+  white-space: pre-wrap;
+}

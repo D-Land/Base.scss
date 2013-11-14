@@ -1,0 +1,21 @@
+// Links
+// ---------------------------------------------------------
+
+// Set background (Normalize)
+a {
+  background: transparent;
+
+  &:link {}
+  &:visited {}
+  // Set outline (Normalize)
+  &:focus {
+    outline: thin dotted;
+  }
+  // Set outline: 0 (Normalize)
+  &:hover {
+    outline: 0;
+  }
+  &:active {
+    outline: 0;
+  }
+}

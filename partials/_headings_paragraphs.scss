@@ -1,0 +1,30 @@
+// Headings and Paragraph
+// ---------------------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  a {}
+}
+
+// Set margin, font-size (Normalize)
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+p {}
+
+// Set height (Normalize)
+// Set styles (H5BP)
+hr {
+  height: 0px;
+}

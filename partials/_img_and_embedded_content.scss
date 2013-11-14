@@ -1,0 +1,41 @@
+// Images and Embedded content
+// ---------------------------------------------------------
+
+// Set display (Normalize)
+// Set vertical-align: middle (H5BP)
+img,
+canvas,
+audio,
+video {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// Responsive content
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+// Set border, interpolation-mode: bicubic (Normalize)
+img {
+  border: 0;
+
+  -ms-interpolation-mode: bicubic;
+}
+
+// Set overflow: hidden (Normalize)
+svg:not(:root) {
+  overflow: hidden;
+}
+
+iframe {}
+
+// Set display: none, height: 0 (Normalize)
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}

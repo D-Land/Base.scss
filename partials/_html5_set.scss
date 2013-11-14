@@ -1,0 +1,24 @@
+// HTML5 set
+// ---------------------------------------------------------
+
+// Set display: block (Normalize)
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+// Set display: none (Normalize)
+[hidden],
+template {
+  display: none;
+}
